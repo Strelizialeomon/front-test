@@ -1,0 +1,28 @@
+{
+  "lineWidth": 120,
+  "indentWidth": 2,
+  "typescript": {
+    "quoteStyle": "alwaysSingle",
+    "arrowFunction.useParentheses": "force",
+    "jsx.quoteStyle": "preferSingle",
+    "module.sortImportDeclarations": "maintain"
+  },
+  "json": {},
+  "markdown": {},
+  "includes": [
+    "**/*.{ts,tsx,jsx,json}",
+    "*.{ts,tsx,jsx,json}"
+  ],
+  "excludes": [
+    "dist",
+    "*-lock.json",
+    "node_modules",
+    ".git/*",
+    "release"
+  ],
+  "plugins": [
+    "https://static.web.realmerit.com.cn/typescript-0.68.0.wasm",
+    "https://static.web.realmerit.com.cn/json-0.15.1.wasm",
+    "https://static.web.realmerit.com.cn/markdown-0.13.1.wasm"
+  ]
+}
