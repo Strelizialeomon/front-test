@@ -9,9 +9,13 @@
     "fmt": "dprint fmt"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.19",
     "dprint": "^0.47.1",
+    "postcss": "^8.4.39",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.4.0",
+    "tailwindcss": "^3.4.4"
   },
   "devDependencies": {
     "@rsbuild/core": "1.0.0-alpha.5",
